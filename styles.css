@@ -1,0 +1,57 @@
+
+body {
+  background-color: #192250;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 44px;
+  font-family: cursive;
+  font-weight: 200;
+  text-align: center;
+  line-height: 59px;
+  margin: 0;
+}
+
+.stopwatch-timer {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  padding-top: 27px;
+}
+
+.wrapper {
+  height: 275px;
+  width: 275px;
+  border: 2px solid;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time-display {
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 255px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+
+
+
